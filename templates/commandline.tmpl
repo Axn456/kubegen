@@ -23,21 +23,6 @@
             </div>
           </div>
         </div>
-
-        <div class="euiHeaderSectionItem euiHeaderSectionItem">
-          <nav class="euiHeaderLinks euiHeaderLinks">
-            <div class="euiHeaderLinks__list euiHeaderLinks__list-s-EuiHeaderLinks">
-              <a class="euiButtonEmpty euiHeaderLink euiButtonDisplay-euiButtonEmpty-m-empty-text"
-                href="{{ .HTTPPath }}/logout" rel="noreferrer">
-                <span class="euiButtonEmpty__content euiButtonDisplayContent">
-                  <span class="eui-textTruncate euiButtonEmpty__text">
-                    Logout
-                  </span>
-                </span>
-              </a>
-            </div>
-          </nav>
-        </div>
       </div>
     </div>
     <div class="euiFlexItem euiFlexItem-grow-1" style="padding: 40px">
@@ -46,29 +31,17 @@
           <div class="euiText euiText-m-euiTextAlign-center">
             <h1>Welcome {{ .Username }}.</h1>
             <p>
-              In order to get command-line access to the
-              {{ .ClusterName }} Kubernetes cluster, you will need to
-              configure OpenID Connect (OIDC) authentication for your client.
+              Download your kubeconfig. Click the button
             </p>
           </div>
         </div>
         <div class="euiFlexItem euiFlexItem-growZero">
           <form method="GET" action="{{ .HTTPPath }}/kubeconf" class="kubeconfig-form">
-            <label for="kubeconfig-filename" class="kubeconfig-form-label">
-              Customize the downloaded kubeconfig filename (optional)
-            </label>
             <div class="kubeconfig-form-row">
-              <input
-                id="kubeconfig-filename"
-                type="text"
-                name="filename"
-                class="kubeconfig-filename-input"
-                placeholder="{{ .KubeCfgUser }}"
-                autocomplete="off" />
               <button type="submit"
                 class="euiButton euiButtonDisplay-m-defaultMinWidth-base-primary">
                 <span class="euiButtonDisplayContent">
-                  <span class="eui-textTruncate">Download Kubeconfig</span>
+                  <span class="eui-textTruncate">Kubeconfig</span>
                 </span>
               </button>
             </div>
