@@ -87,7 +87,7 @@ func NewConfig(configFile string) (*Config, error) {
 		}
 	}
 
-	err := envconfig.Process("gangplank_config", cfg)
+	err := envconfig.Process("kubegen_config", cfg)
 	if err != nil {
 		return nil, err
 	}
