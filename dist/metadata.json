@@ -1,1 +1,1 @@
-{"project_name":"gangplank","tag":"v0.0.0","previous_tag":"","version":"0.0.1-develop","commit":"616aa66a179c161f64c47efeaf211220ce636788","date":"2026-08-25T18:04:53.738848219+03:00","runtime":{"goos":"linux","goarch":"amd64"}}
+{"project_name":"gangplank","tag":"2.31","previous_tag":"","version":"2.31.1-develop","commit":"940f64f4634154455e45fd9d668b79bd1cef8ec3","date":"2026-09-29T10:04:18.753728601+03:00","runtime":{"goos":"linux","goarch":"amd64"}}
