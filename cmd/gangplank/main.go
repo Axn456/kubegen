@@ -144,7 +144,7 @@ func main() {
 
 	// start up the http server
 	go func() {
-		slog.Info("Gangplank started", "address", bindAddr)
+		slog.Info("Kubegen started", "address", bindAddr)
 
 		// exit with FATAL logging why we could not start
 		// example: FATA[0000] listen tcp 0.0.0.0:8080: bind: address already in use
