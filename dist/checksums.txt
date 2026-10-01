@@ -1,2 +1,2 @@
-ba9a5e6fb94762df9265c183d13f9e7fdcc60d1c51aec356210237444d197489  gangplank-linux-amd64.tar.gz
-6156e2a9894102ff9a321ceffb65c5fb491c63c6d5c909e847204eed0a220307  gangplank-linux-arm64.tar.gz
+a0f05a2d25a6e3e9cfd0de6a4cbf93ee497e664f2d39d610319ef9dd9c703ae4  gangplank-linux-amd64.tar.gz
+719c5767ced7f39994f64513af7856fd6028bd4153d7b8b428c4e853a478555b  gangplank-linux-arm64.tar.gz
